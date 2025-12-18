@@ -44,7 +44,7 @@ if uploaded:
     st.dataframe(df.head())
 
     # Load XGBoost model
-    model = joblib.load("BEST_XGBOOST_MODEL.pkl")
+    model = joblib.load("models/BEST_XGBOOST_MODEL.pkl")
 
     # Preprocess & Predict
     def preprocess_and_predict(df_input, model):
