@@ -40,7 +40,7 @@ Car-Accident-Prediction/
 │   ├── thai_road_accident_2019_2022.csv      # Raw accident data
 │   ├── thai_road_accident_2019_2022.parquet  # Optimized format
 │   └── sample_accidents.csv           # Sample data for testing
-└── new_car.pem                        # SSL certificate (if needed)
+└── new_car.pem                        # Private key file (⚠️ WARNING: Should not be in repository)
 ```
 
 ## 🚀 Quick Start
@@ -88,6 +88,7 @@ The application will open in your browser at `http://localhost:8501`
    - `road_description`: Road characteristics
    - `slope_description`: Road slope
    - `province_en`: Province name (English)
+   - `number_of_fatalities`: Number of fatalities in the accident
 
 2. View predictions and visualizations:
    - **Folium Heatmap**: Shows risk hotspots weighted by predicted severity
@@ -145,6 +146,13 @@ Models are evaluated using:
 - Confusion matrix analysis
 - Precision, recall, and F1-score
 - Grid search for optimal hyperparameters
+
+## ⚠️ Security Notice
+
+**WARNING**: The repository currently contains a private key file (`new_car.pem`). Private keys and SSL certificates should never be committed to public repositories as they pose a security risk. If you are using this project, please:
+1. Remove or regenerate any sensitive credentials
+2. Add `*.pem` to `.gitignore` to prevent future commits
+3. Use environment variables or secure key management systems for credentials
 
 ## 🤝 Contributing
 
