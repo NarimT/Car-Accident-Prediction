@@ -88,6 +88,7 @@ The application will open in your browser at `http://localhost:8501`
    - `road_description`: Road characteristics
    - `slope_description`: Road slope
    - `province_en`: Province name (English)
+   - `number_of_fatalities`: Number of fatalities in the accident
 
 2. View predictions and visualizations:
    - **Folium Heatmap**: Shows risk hotspots weighted by predicted severity
