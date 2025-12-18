@@ -2,14 +2,14 @@
 
 A machine learning project for predicting accident severity hotspots in Thailand using historical road accident data (2019-2022). The project includes interactive visualizations through a Streamlit web application.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project analyzes Thai road accident data to:
 - Predict accident severity (high/low) using machine learning models
 - Visualize accident hotspots on interactive maps
 - Identify patterns in accident occurrence based on temporal, spatial, and contextual features
 
-## 📊 Features
+## Features
 
 - **Interactive Web Application**: Streamlit-based dashboard for visualizing predicted accident hotspots
 - **Multiple ML Models**: XGBoost and LightGBM models for severity prediction
@@ -17,7 +17,7 @@ This project analyzes Thai road accident data to:
 - **Comprehensive EDA**: Exploratory data analysis of accident patterns
 - **Model Optimization**: Grid search and cross-validation for hyperparameter tuning
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 Car-Accident-Prediction/
@@ -43,7 +43,7 @@ Car-Accident-Prediction/
 └── new_car.pem                        # Private key file (⚠️ WARNING: Should not be in repository)
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -72,7 +72,7 @@ streamlit run app.py
 
 The application will open in your browser at `http://localhost:8501`
 
-## 📝 Usage
+## Usage
 
 ### Web Application
 
@@ -103,7 +103,7 @@ Explore the analysis and model development process:
 2. **final_training.ipynb**: Model training with cross-validation
 3. **random_grid_search.ipynb**: Hyperparameter optimization
 
-## 🤖 Models
+## Models
 
 ### XGBoost Model
 - Primary model used in production (app.py)
@@ -121,7 +121,7 @@ Explore the analysis and model development process:
 - **Contextual**: vehicle type, weather, road conditions, accident type
 - **Numerical**: number of vehicles involved
 
-## 📊 Dataset
+## Dataset
 
 The project uses Thai road accident data from 2019-2022, containing:
 - Accident locations (GPS coordinates)
@@ -130,7 +130,7 @@ The project uses Thai road accident data from 2019-2022, containing:
 - Environmental factors (weather, road conditions)
 - Vehicle information
 
-## 🔧 Dependencies
+## Dependencies
 
 Key packages (see `requirements.txt` for full list):
 - **Machine Learning**: scikit-learn, xgboost, lightgbm, imbalanced-learn
@@ -139,7 +139,7 @@ Key packages (see `requirements.txt` for full list):
 - **Web App**: streamlit, streamlit-folium
 - **Utilities**: joblib
 
-## 📈 Model Performance
+## Model Performance
 
 Models are evaluated using:
 - Cross-validation accuracy
@@ -147,26 +147,20 @@ Models are evaluated using:
 - Precision, recall, and F1-score
 - Grid search for optimal hyperparameters
 
-## ⚠️ Security Notice
 
-**WARNING**: The repository currently contains a private key file (`new_car.pem`). Private keys and SSL certificates should never be committed to public repositories as they pose a security risk. If you are using this project, please:
-1. Remove or regenerate any sensitive credentials
-2. Add `*.pem` to `.gitignore` to prevent future commits
-3. Use environment variables or secure key management systems for credentials
-
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+## License
 
-This project is available for educational and research purposes.
+This project is part of the Computer Programming for Data Science course at AIT (Asian Institute of Technology)
 
-## 👥 Authors
+## Authors
 
 - NarimT
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Thai road accident data providers
 - Open-source ML and visualization libraries
