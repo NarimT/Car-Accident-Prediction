@@ -14,7 +14,12 @@ st.markdown("""
     This MVP visualizes **predicted accident severity hotspots** in Thailand based on your uploaded accident CSV.
     - **Folium Heatmap:** Shows risk hotspots weighted by the model's predicted probability of high severity.
     - **Plotly Density Map:** Shows the same predictions with interactive zoom/pan. Each point’s brightness represents the model's confidence that the accident is high severity.
-    **Upload CSV:** Must contain the following columns: incident_datetime, latitude, longitude, number_of_vehicles_involved, vehicle_type, presumed_cause, accident_type, weather_condition, road_description, slope_description, province_en, number_of_fatalities.
+    
+    **Upload CSV:** Must contain the following columns:
+    - incident_datetime, latitude, longitude
+    - number_of_vehicles_involved, number_of_fatalities
+    - vehicle_type, presumed_cause, accident_type
+    - weather_condition, road_description, slope_description, province_en
 """)
 
 # Upload CSV

@@ -40,7 +40,7 @@ Car-Accident-Prediction/
 │   ├── thai_road_accident_2019_2022.csv      # Raw accident data
 │   ├── thai_road_accident_2019_2022.parquet  # Optimized format
 │   └── sample_accidents.csv           # Sample data for testing
-└── new_car.pem                        # SSL certificate (⚠️ WARNING: Should not be in repository)
+└── new_car.pem                        # Private key file (⚠️ WARNING: Should not be in repository)
 ```
 
 ## 🚀 Quick Start
