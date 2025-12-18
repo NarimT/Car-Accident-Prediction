@@ -1,5 +1,4 @@
 incident_datetime,province_en,latitude,longitude,vehicle_type,presumed_cause,accident_type,weather_condition,road_description,slope_description,number_of_vehicles_involved,number_of_injuries,number_of_fatalities
-acc_code,incident_datetime,report_datetime,province_th,province_en,agency,route,vehicle_type,presumed_cause,accident_type,number_of_vehicles_involved,number_of_fatalities,number_of_injuries,weather_condition,latitude,longitude,road_description,slope_description
 2021-03-15 08:23:00,Bangkok,13.7563,100.5018,Car,Speeding,Collision,Clear,Urban Road,Flat,2,1,0
 2021-03-15 08:25:00,Bangkok,13.7565,100.5016,Motorcycle,Speeding,Collision,Clear,Urban Road,Flat,1,0,0
 2021-03-15 08:28:00,Bangkok,13.7562,100.5017,Truck,Reckless Driving,Collision,Clear,Urban Road,Flat,1,3,0
