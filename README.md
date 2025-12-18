@@ -1,13 +1,19 @@
 # Car Accident Prediction - Thailand Road Safety Analysis
 
-A machine learning project for predicting accident severity hotspots in Thailand using historical road accident data (2019-2022). The project includes interactive visualizations through a Streamlit web application.
+A machine learning project for predicting accident severity hotspots in [Thailand using historical road accident data (2019-2022)](https://www.kaggle.com/datasets/thaweewatboy/thailand-road-accident-2019-2022). The project includes interactive visualizations through a Streamlit web application.
 
 ## Project Overview
 
-This project analyzes Thai road accident data to:
+This [project](Gana_finalreport.pdf) analyzes Thai road accident data to:
 - Predict accident severity (high/low) using machine learning models
 - Visualize accident hotspots on interactive maps
 - Identify patterns in accident occurrence based on temporal, spatial, and contextual features
+
+### Visual Overview
+<div align="center">
+  <img src="data/menu.png" alt="Application Menu" width="400"/>
+  <img src="data/heatmap.png" alt="Heatmap Example" width="400"/>
+</div>
 
 ## Features
 
